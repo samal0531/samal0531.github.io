@@ -1,0 +1,129 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(#7fff00,#006400);
+}
+
+header{
+  display: flex;
+  position: fixed;
+}
+
+header h1{
+  cursor: pointer;
+  color: #fff;
+  font-size: 40px;
+  margin: 4px 0 0 4px;
+}
+
+.container{
+  width: 500px;
+  margin-left: 250px;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+}
+
+.list li{
+  width: 100px;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.material-icons {
+  margin-top: 6px;
+  color: #fff;
+}
+
+.logo {
+  padding-top: 100px;
+  text-align: center;
+}
+
+._survise p{
+  text-align: center;
+}
+
+.port-li {
+  list-style: none;
+  display: flex;
+}
+
+.port-li img{ 
+  width: 350px;
+}
+
+.port-li li {
+  width: 400px;
+  height: 400px;
+}
+
+.port-li li p {
+  background-color: #fff;
+  text-align: right;
+  line-height: 40px;
+  width: 350px;
+  height: 40px;
+  padding: 0;
+  margin: 0; 
+}
+
+.port-li li:nth-child(even){
+  margin-top: 100px;
+}
+
+.portfolio section {
+  display: flex;
+}
+
+
+.comp-name, .comp-contain {
+  list-style: none;
+}
+
+section h1{
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 80px;
+  width: 400px;
+  height: 80px;
+  background: #ff00ff;
+  color: #fff;
+  margin: 80px 0;
+}
+
+._survise h1{
+  margin-left: auto;
+}
+
+.members h1{
+  margin-left: auto;
+}
+
+.mem-li {
+  list-style: none;
+  display: flex;
+}
+
+.mem-li img {
+  width: 280px;
+  border-radius: 50%;
+}
+
+.mem-li li{
+  text-align: center;
+  color: #fff;
+  flex-grow: 1;
+}
+
+._company li{
+  display: flex;
+  color: #fff;
+}
+
+.comp-container {
+  display: flex;
+}
